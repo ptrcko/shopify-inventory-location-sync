@@ -17,7 +17,7 @@ This script connects all product variants (including untracked items) to a speci
 
 1. Clone this repo.
 ```bash
-git clone https://github.com/your-org/shopify-inventory-location-sync.git
+git clone https://github.com/ptrcko/shopify-inventory-location-sync.git
 cd shopify-inventory-location-sync
 ```
 2. Install dependencies:
@@ -56,4 +56,7 @@ If you stop the script, it will resume next time by skipping already-processed v
 ## 🧪 Test Mode
 
 Start with small batches:
-PRODUCT_LIMIT=1
+
+`PRODUCT_LIMIT=1`
+
+Then scale up to 5, 10, or all products (None).
