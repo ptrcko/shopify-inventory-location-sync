@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+inventory_update_log.txt
+
+# Environment configuration (actual values)
+.env
+.env.*
+
+# Allow the example env file
+!.env.example
+
+# Editor settings
+.vscode/
+
+# OS system files
+.DS_Store
